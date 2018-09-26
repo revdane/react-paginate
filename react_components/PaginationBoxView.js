@@ -38,11 +38,12 @@ export default class PaginationBoxView extends Component {
     activeClassName       : "selected",
     previousClassName     : "previous",
     nextClassName         : "next",
-    previousLabel         : "Previous",
+    previousLabel         : "Prev",
     nextLabel             : "Next",
     breakLabel            : "...",
     disabledClassName     : "disabled",
-    disableInitialCallback: false
+    disableInitialCallback: false,
+    initialPage           : 1,
   };
 
   constructor(props) {
